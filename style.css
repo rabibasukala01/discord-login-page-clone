@@ -1,6 +1,7 @@
 body{
     background-image: url(d1.png);
-    
+
+    /* idk the font family if you know it goes here   */
 }
 
 .main{  
@@ -26,15 +27,19 @@ body{
 }
 /* box */
 .f3{
+	
     height: 35px;
     width: 407px;
     margin: 10px 5px 0px 35px;
     border-radius: 5px;
-    border-color:  rgb(41, 36, 36);
+    border:0.1px solid #222428;
     background-color: #36393F   ;
     color: rgb(236, 222, 222);
     padding:0px 5px 0px 10px;
     font-size: 15px;
+}
+.f3:hover{
+    border:0.1px solid black;
 }
 .f3:focus{
     border: 1px solid #00AFF4;
@@ -73,7 +78,7 @@ body{
     height: 175px;
     width: 175px;
     /* background-color:black; */
-    /* image halney paxi */
+    
 }
 #p1{
     
@@ -113,6 +118,7 @@ body{
 
 }
 #f5{
+    border:none;
     height: 48px;
     width: 415px;
     margin:-10px 0px 0px 35px;
